@@ -83,6 +83,7 @@
     background-position: center;
     background-size: cover;
     align-items: center;
+    position: relative;
   }
 
   .about h1 {
@@ -565,4 +566,11 @@ background-position: center;
 .about_right button i{
   font-size: 15px;
   margin-left: 5px;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }

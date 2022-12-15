@@ -34,11 +34,12 @@ function increaseNumberAnimationStep (i, element, endNumber) {
           input.type = "text"; 
             
           formContainer.appendChild(input);
-          document.querySelector('#form form').insertBefore(formContainer, document.querySelector('.form__submit')); 
+          document.querySelector('.form form').insertBefore(formContainer,
+          document.querySelector('.form__submit')); 
         }
        
         const otherInput = document.querySelector('.form__other-input');
         if (event.target.value !== 'other' && Boolean(otherInput)) { 
-        document.querySelector('#form form').removeChild(otherInput); 
+        document.querySelector('.form form').removeChild(otherInput); 
         }
       });
